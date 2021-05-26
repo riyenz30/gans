@@ -47,7 +47,7 @@ op = bulan[nTemp]
 
 def logo():
 	os.system("clear")
-	print("  \033[0;91m\n\033[0;91m\033[0;96mAUTHOR\033[0;97m : RIYenz Gans\n\033[0;97m \033[0;91mFACEBOOK\033[0;97m : FB.ME RianStwn30\n\033[0;97m \033[0;93mGITHUB\033[0;97m : GITHUB.COM/riyenz30")
+	print("  \033[0;91m\n\033[0;91m\033[0;96m AUTHOR\033[0;97m : RIYenz Gans\n\033[0;97m \033[0;91mFACEBOOK\033[0;97m : FB.ME RianStwn30\n\033[0;97m \033[0;93mGITHUB\033[0;97m : GITHUB.COM/riyenz30")
 
 def bot_komen():
     try:
